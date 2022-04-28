@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F14 - Inicio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="img/f14logo.png" alt="f14logo" width="50" height="50">
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li class="nav__item">
+                    <a class="nav__enlace" href="index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="pages/bebidas.html">Bebidas</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="pages/preguntas-frecuentes.html">Faq</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__left">
+                <h1 class="hero__title">Tu almacen de bebidas</h1>
+                <h2 class="hero__subtitle">es <span>F14</span>.</h2>
+                <p>Somos F14, una empresa dedicada a la ventas y distribucion de bebidas. Estamos ubicados en la ciudad de Cordoba Capital y tenemos sucursales en Tierra del Fuego, podes encontrarnos en instagram como @f14almacendebebidas. </p>
+            </div>
+            <div class="hero__right">
+               <a href="pages/bebidas.html">
+                    <img src="img/vasofernet.png" alt="Vaso de fernet">
+               </a>
+            </div>
+        </section>
+
+        
+        <section class="promos">
+            <h2 class="promos__title">Promos destacadas del dia</h2>
+            <div class="promos__grid">
+                <div class="promos__item">
+                    <img class="promos__img" src="img/promogancia.jpg" alt="promogancia" width="200px" height="10px">
+                </div>
+                <div class="promos__item">
+                    <img class="promos__img" src="img/promopatagonia.png" alt="promopatagonia" width="200px" height="200px">
+                </div>
+                <div class="promos__item">
+                    <img class="promos__img" src="img/promosmirnoff.jpg" alt="promosmirnoff" width="200px" height="200px">
+                </div>
+                <div class="promos__item">
+                    <img class="promos__img" src="img/promofernet.jpg" alt="promofernet" width="200" height="200">
+                </div>
+            </div>
+        </section>
+        <section class="section-tres">
+                <div>
+                    <p class="calcularenvio">¡Calcula el costo de tu envio!</p>
+                    <p>Provincia</p>
+                        <form>
+                            <select name="Provincia">
+                                <option value="Buenos Aires">Buenos Aires</option>
+                                <option value="Cordoba">Cordoba</option>
+                                <option value="Tierra del Fuego">Tierra del Fuego</option>
+                            </select>
+                        </form>
+                    <p>Ciudad</p>
+                        <form>
+                            <select name="Ciudad">
+                                <option value="Capital Federal">Capital Federal</option>
+                                <option value="Cordoba Capital">Cordoba Capital</option>
+                                <option value="Ushuaia">Ushuaia</option>
+                            </select>
+                        </form>
+                    <p>Fecha de entrega</p>
+                        <input type="date">
+                </div>
+                <button>Calcular</button>  
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img src="img/f14logo.png" alt="Logo de Starbucks" width="50" height="50">
+        <p class="footer__copy">All rights reserved - F14</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F14 - Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"> 
+        <img src="img/f14logo.png" alt="f14logo" width="50" height="50">
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li class="nav__item">
+                    <a class="nav__enlace" href="index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="pages/bebidas.html">Bebidas</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="pages/preguntas-frecuentes.html">Faq</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__left">
+                <h1 class="hero__title">Tu almacen de bebidas</h1>
+                <h2 class="hero__subtitle">es <span><strong>F14</strong></span>.</h2>
+                <p>Somos F14, una empresa dedicada a la ventas y distribucion de bebidas. Estamos ubicados en la ciudad de Cordoba Capital y tenemos sucursales en Tierra del Fuego, podes encontrarnos en instagram como @f14almacendebebidas. </p>
+            </div>
+            <div class="hero__right">
+                   <img src="img/vasofernet.png" alt="Vaso de fernet">
+            </div>
+        </section>
+
+        
+        <section class="promos">
+            <h2 class="promos__title">Promos destacadas del dia</h2>
+            <div class="promos__grid">
+                <div class="promos__item">
+                    <img class="promos__img" src="img/promogancia.jpg" alt="promogancia" width="200px" height="10px">
+                </div>
+                <div class="promos__item">
+                    <img class="promos__img" src="img/promopatagonia.png" alt="promopatagonia" width="200px" height="200px">
+                </div>
+                <div class="promos__item">
+                    <img class="promos__img" src="img/promosmirnoff.jpg" alt="promosmirnoff" width="200px" height="200px">
+                </div>
+                <div class="promos__item">
+                    <img class="promos__img" src="img/promofernet.jpg" alt="promofernet" width="200" height="200">
+                </div>
+            </div>
+        </section>
+        <section class="section-tres">
+                <div>
+                    <p class="calcularenvio">¡Calcula el costo de tu envio!</p>
+                    <p>Provincia</p>
+                        <form>
+                            <select class="form-select" aria-label="Default select example" name="Provincia">
+                                <option value="Buenos Aires">Buenos Aires</option>
+                                <option value="Cordoba">Cordoba</option>
+                                <option value="Tierra del Fuego">Tierra del Fuego</option>
+                            </select>
+                        </form>
+                    <p>Ciudad</p>
+                        <form>
+                            <select class="form-select" aria-label="Default select example" name="Ciudad">
+                                <option value="Capital Federal">Capital Federal</option>
+                                <option value="Cordoba Capital">Cordoba Capital</option>
+                                <option value="Ushuaia">Ushuaia</option>
+                            </select>
+                        </form>
+                    <p>Fecha de entrega</p>
+                        <input type="date">
+                </div>
+                <hr>
+                <button type="button" class="btn btn-outline-dark">Calcular</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img src="img/f14logo.png" alt="Logo de Starbucks" width="50" height="50">
+        <p class="footer__copy">All rights reserved - F14</p>
+    </footer>
+</body>
+</html>

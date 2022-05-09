@@ -49,37 +49,36 @@ ul {
     display: flex;
     align-items:center;
     flex-direction: row-reverse;
-}
 
-.hero__left, .hero__right {
-    width: 50%;
-}
+     &__subtitle span {
+        color: $f14Color;
+    }
 
-.hero__left {
-    padding: 1rem;
-}
+    &__left, &__right {
+        width: 50%;
+    }
 
-.hero__right {
-    display: flex;
-    justify-content: center;
+    &__left {
+        padding: 1rem;
+    }
+    
+    &__right {
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__right img {
+        max-width: 750px;
+    }
+    
+    &__title {
+        font-size: 35px;
+    }
+    
+    &__subtitle {
+        font-size: 50px;
+    }
 }
-
-.hero__right img {
-    max-width: 750px;
-}
-
-.hero__title {
-    font-size: 35px;
-}
-
-.hero__subtitle {
-    font-size: 50px;
-}
-
-.hero__subtitle span {
-    color:gold;
-}
-
 
 .header__icono {
     display: none;
